@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "738289211280",
+    "firebase_url": "https://adept-bastion-123016.firebaseio.com",
+    "project_id": "adept-bastion-123016",
+    "storage_bucket": "adept-bastion-123016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738289211280:android:495d45ef39545225",
+        "android_client_info": {
+          "package_name": "com.jailbird.glass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738289211280-mnurenml0bvckr0jmt9bnn5kigpm20um.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jailbird.glass",
+            "certificate_hash": "acec25577fea72696303837be40a43235384abbc"
+          }
+        },
+        {
+          "client_id": "738289211280-1skt15ggdq1omdkue4s77skbcdk01v1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-UYJQDrYHzKWbF7Yl42VLDr8rFPqb8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738289211280-1skt15ggdq1omdkue4s77skbcdk01v1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738289211280:android:2e3576adf33ebc35",
+        "android_client_info": {
+          "package_name": "com.jailbird.trainr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738289211280-qgq991q8j2h6ojub8q0qlbnmtm3g3gff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jailbird.trainr",
+            "certificate_hash": "c2929bd073f0fef58d2f240a3945aceb6a806076"
+          }
+        },
+        {
+          "client_id": "738289211280-1skt15ggdq1omdkue4s77skbcdk01v1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-UYJQDrYHzKWbF7Yl42VLDr8rFPqb8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738289211280-1skt15ggdq1omdkue4s77skbcdk01v1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738289211280:android:d1917591a9c2f3e1",
+        "android_client_info": {
+          "package_name": "com.rebirth.hustle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738289211280-1skt15ggdq1omdkue4s77skbcdk01v1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-UYJQDrYHzKWbF7Yl42VLDr8rFPqb8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

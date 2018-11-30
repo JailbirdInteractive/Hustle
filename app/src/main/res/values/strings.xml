@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hustle</string>
+    <string name="specials">My Specialities</string>
+    <string name="currents_txt">Current Jobs</string>
+    <string name="log_out">Log Out</string>
+    <string name="recent_jobs">Recent Jobs</string>
+    <string name="my_jobs">My Jobs</string>
+    <string name="photo_bucket">gs://api-project-28107590906.appspot.com</string>
+    <string name="paypal_client_id">Ac3x1cQFV6364VunezqOA4A9vxRtyofb4zRpeGSqsztP1z26efP4Lbz7vjHSyEroSFxofWCLKhZlHNLf</string>
+</resources>

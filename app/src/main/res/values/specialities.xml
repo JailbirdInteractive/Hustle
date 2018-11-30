@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="specialities">
+        <item>VMware Administration </item>
+        <item>Network Administration</item>
+        <item>Technical Support</item>
+        <item>Linux System Administration</item>
+        <item>Microsoft Windows Server</item>
+        <item>Network Monitoring</item>
+        <item>Android App Development</item>
+        <item>IOS Development</item>
+        <item>Amazon ec2</item>
+        <item>AMP Web development</item>
+        <item>Microsoft Windows Azure</item>
+        <item>Web Development</item>
+    </string-array>
+
+</resources>

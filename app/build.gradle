@@ -1,0 +1,86 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.rebirth.hustle"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+
+   //Google dependances
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.firebase:firebase-core:16.0.5'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'com.google.firebase:firebase-database:16.0.4'
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.google.firebase:firebase-storage:16.0.4'
+
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+
+   //External Libraries
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'gun0912.ted:tedbottompicker:1.2.6'
+    implementation 'uk.co.chrisjenx:calligraphy:2.2.0'
+    implementation 'com.wajahatkarim3.EasyMoney-Widgets:EasyMoney-Widgets:1.0.0'
+    implementation 'ru.bullyboo.animation:text_counter:1.0.1'
+    implementation 'com.github.marcoscgdev.EasyLicensesDialog:appcompatversion:1.0.4'
+    implementation 'com.github.devlight.pulseview:library:1.0.2'
+    implementation 'com.github.quiin:unifiedContactPicker:1.0'
+    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+    implementation 'com.github.baneizalfe.pulltodismisspager:library:1.0.1'
+    implementation 'com.veinhorn.scrollgalleryview:library:1.0.5'
+    implementation 'jp.wasabeef:blurry:2.1.0'
+    implementation 'com.github.florent37:singledateandtimepicker:1.0.8'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.yalantis:ucrop:2.2.0'
+    implementation 'it.neokree:MaterialNavigationDrawer:1.3.3'
+    implementation 'com.github.IntruderShanky:Frisson:2.0.0'
+    implementation 'com.github.andremion:floatingnavigationview:1.0.1'
+    implementation 'com.liangfeizc:avatarview:0.0.1@aar'
+    implementation 'com.github.armcha:SpaceNavigationView:1.4.1'
+    implementation 'com.codemybrainsout.placesearchdialog:placesearch:1.0.0'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'agency.tango.android:material-intro-screen:0.0.5'
+    //implementation 'com.braintreepayments.api:braintree:2.+'
+
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    implementation 'com.github.lguipeng:AnimCheckBox:1.0.0'
+    implementation 'com.github.mancj:MaterialSearchBar:0.3.1'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.easing:library:1.0.1@aar'
+    implementation 'com.daimajia.androidanimations:library:1.1.3@aar'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.github.jksiezni.permissive:permissive:0.2'
+    implementation 'com.wang.avi:library:2.1.3'
+    implementation 'com.github.adroitandroid:ChipCloud:2.2.1'
+    implementation 'com.paypal.pyplcheckout:nativexo:3.3.0'
+    implementation 'com.paypal.sdk:paypal-android-sdk:2.16.0'
+
+
+
+
+}
